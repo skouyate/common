@@ -1,0 +1,28 @@
+{
+    "name":        "lexbase/common-bundle",
+    "type":        "symfony-bundle",
+    "description": "This bundle is a common fonctionnality for Lexbase GA and Lexbase Contribution ",
+    "license":     "",
+
+    "authors": [
+        {
+            "name": "Ivision",
+            "homepage": "http://wwww.ivision.fr"
+        },
+    ],
+
+    "require": {
+        "php":                      ">=5.3.2",
+        "symfony/framework-bundle": ">=2.0.0",
+        "symfony/symfony":          ">=2.0.0",
+        "raveren/kint":             "~0.9"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Lexbase\\CommonBundle": ""
+        }
+    },
+
+    "target-dir": "Lexbase/CommonBundle"
+}
